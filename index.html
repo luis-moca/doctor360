@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doctor 360 · Propuesta</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap">
+<style>
+:root{
+  --ink:#242727; --ink2:#565F5F; --ink3:#8A9190;
+  --paper:#F7F2ED; --paper2:#EDE7E0; --white:#FFFFFF; --line:#E6E1DB;
+  --brand:#1CC9AB; --deep:#006A59; --deep2:#0B8F78; --deep3:#053F36; --mid:#007C68;
+  --mint:#DFF9F2; --mint2:#C1F5E7;
+  --alta:#B3261E; --alta-soft:#FBE4E1; --media:#9A6A12; --media-soft:#F8ECD2; --buena:#1D6B3F; --buena-soft:#DDF0E3;
+  --font:"Figtree","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:18px;line-height:1.5;overflow-x:hidden}
+button{font:inherit;cursor:pointer}
+a{color:inherit}
+::selection{background:var(--mint2)}
+.glow{position:fixed;width:34rem;height:34rem;border-radius:50%;background:radial-gradient(circle,rgba(28,201,171,.18),transparent 60%);pointer-events:none;z-index:0;transform:translate(-50%,-50%);left:-100vw;top:-100vh}
+.blob{position:fixed;border-radius:50%;opacity:.7;pointer-events:none;z-index:0;will-change:transform}
+.b1{width:46vw;height:46vw;background:radial-gradient(circle,#C1F5E7 0%,rgba(193,245,231,.5) 40%,rgba(193,245,231,0) 70%);left:-14vw;top:-8vw}
+.b2{width:40vw;height:40vw;background:radial-gradient(circle,#E8E1D9 0%,rgba(232,225,217,.5) 40%,rgba(232,225,217,0) 70%);right:-12vw;top:40vh}
+.b3{width:36vw;height:36vw;background:radial-gradient(circle,#DFF9F2 0%,rgba(223,249,242,.5) 40%,rgba(223,249,242,0) 70%);left:28vw;bottom:-16vw}
+
+.prog{position:fixed;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,var(--brand),var(--deep));z-index:50}
+.top{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;align-items:center;gap:1rem;padding:.85rem 1.6rem;background:rgba(247,242,237,.94);border-bottom:1px solid rgba(0,0,0,.05);transition:background .3s}
+.top.dk{background:rgba(5,63,54,.55);color:#fff}
+.top.dk nav a{color:rgba(255,255,255,.8)}
+.logo{display:flex;align-items:center;gap:.6rem;font-weight:900;font-size:1.2rem;letter-spacing:-.02em}
+.logo .dot{width:1.3rem;height:1.3rem;display:block;position:relative}
+.logo .dot::before{content:"";position:absolute;inset:-.55rem;border-radius:50%;background:radial-gradient(circle,rgba(28,201,171,.55) 0%,transparent 68%);animation:shieldGlow 3.2s ease-in-out infinite;z-index:0}
+.logo .dot img{width:100%;height:100%;object-fit:contain;display:block;position:relative;z-index:1}
+.logo small{font-weight:500;opacity:.7;font-size:.8rem;margin-left:1.1rem}
+.top nav{margin-left:auto;display:flex;gap:.35rem}
+.top nav a{text-decoration:none;font-size:.85rem;font-weight:600;color:var(--ink2);padding:.45rem .9rem;border-radius:999px}
+.top nav a.on{background:var(--brand);color:var(--deep3)}
+.dots{position:fixed;right:1.1rem;top:50%;transform:translateY(-50%);z-index:40;display:flex;flex-direction:column;gap:.55rem}
+.dots a{width:.55rem;height:.55rem;border-radius:50%;background:rgba(36,39,39,.25);display:block;transition:all .2s}
+.dots a.on{background:var(--brand);transform:scale(1.6)}
+@media (max-width:900px){.dots,.top nav{display:none}}
+
+section{position:relative;z-index:1;min-height:100vh;display:flex;align-items:center;padding:6rem 1.6rem 4rem}
+#cierre{min-height:auto}
+section .in{max-width:1180px;margin:0 auto;width:100%}
+section.dark{background:linear-gradient(135deg,var(--deep3) 0%,var(--deep) 55%,var(--deep2) 100%);color:var(--white)}
+section.dark .eyebrow{color:var(--mint2)}
+section.dark .sub{color:rgba(255,255,255,.82)}
+section.white{background:rgba(255,255,255,.72)}
+.eyebrow{font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--deep)}
+h1{font-size:clamp(3.2rem,8vw,7rem);font-weight:900;letter-spacing:-.045em;line-height:.95;margin:.4rem 0 1rem}
+h2{font-size:clamp(2.1rem,4.6vw,3.8rem);font-weight:900;letter-spacing:-.035em;line-height:1.02;margin:.4rem 0 .8rem;text-wrap:balance}
+h2 em,h1 em{font-style:normal;color:var(--brand)}
+.sub{font-size:1.2rem;color:var(--ink2);max-width:44rem;margin:0 0 2rem}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.grid5{display:grid;grid-template-columns:repeat(5,1fr);gap:.8rem}
+@media (max-width:900px){.grid2,.grid3,.grid4,.grid5{grid-template-columns:1fr}}
+.btn{border:0;background:var(--deep);color:var(--white);border-radius:999px;padding:.9rem 1.5rem;font-weight:800;font-size:1rem;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,106,89,.28)}
+.btn.light{background:var(--white);color:var(--deep)}
+.btn.ghost{background:transparent;border:2px solid currentColor}
+.cta-glow{animation:ctaGlow 2.6s ease-in-out infinite}
+@keyframes ctaGlow{0%,100%{box-shadow:0 0 0 0 rgba(255,255,255,0)}50%{box-shadow:0 0 16px 4px rgba(255,255,255,.35)}}
+@media (prefers-reduced-motion:reduce){.cta-glow{animation:none}}
+.card{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:1.6rem 1.7rem;box-shadow:0 10px 30px rgba(36,39,39,.05);transform-style:preserve-3d;will-change:transform}
+section.dark .card{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.16);color:var(--white)}
+.card h3{margin:.2rem 0 .4rem;font-size:1.25rem;font-weight:800}
+.card p{margin:0;color:var(--ink2);font-size:1rem}
+section.dark .card p{color:rgba(255,255,255,.8)}
+.big{font-size:clamp(3.4rem,8vw,7rem);font-weight:900;letter-spacing:-.05em;line-height:1;font-variant-numeric:tabular-nums}
+.big.g{color:var(--deep)}
+.stat .l{font-size:1.05rem;color:var(--ink2);font-weight:600;display:block;margin-top:.3rem}
+section.dark .stat .l{color:rgba(255,255,255,.8)}
+.tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:var(--mint);color:var(--deep);padding:.25rem .7rem;border-radius:999px}
+section.dark .tag{background:rgba(255,255,255,.15);color:var(--white)}
+.tag.warn{background:var(--media-soft);color:var(--media)}.tag.bad{background:var(--alta-soft);color:var(--alta)}.tag.good{background:var(--buena-soft);color:var(--buena)}
+
+/* HÉROE */
+.hero{padding-top:6rem;overflow:hidden}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.hero .in{position:relative;z-index:2}
+.hero .chars span{display:inline-block}
+.hero .type{min-height:2.6em}
+.hero .type i{display:inline-block;width:.6ch;background:var(--brand);height:1.1em;vertical-align:-.15em;margin-left:.1ch;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.fcard{position:absolute;background:var(--white);color:var(--ink);border-radius:18px;padding:.9rem 1.1rem;box-shadow:0 26px 60px rgba(0,0,0,.35);width:19rem;z-index:3}
+.fcard .h{display:flex;align-items:center;gap:.6rem;font-weight:800}
+.fcard .av{width:2rem;height:2rem;border-radius:50%;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:800}
+.fcard .m{font-size:.85rem;color:var(--ink2);margin-top:.25rem}
+.fcard .pill{display:inline-block;margin-top:.5rem;font-size:.7rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:.2rem .6rem;border-radius:999px}
+.f1{right:6%;top:16%}.f2{right:2%;top:46%}.f3{right:14%;bottom:12%}
+@media (max-width:900px){.fcard{display:none}}
+.legend{position:absolute;left:1.6rem;bottom:1.6rem;z-index:3;display:flex;gap:1rem;flex-wrap:wrap;font-size:.8rem;color:rgba(255,255,255,.85)}
+.legend i{width:.6rem;height:.6rem;border-radius:50%;display:inline-block;margin-right:.35rem}
+
+/* HOY (pinned) */
+#hoy{padding-top:4rem;padding-bottom:2.5rem}
+#metodo{min-height:100vh}
+.hoy-stage{position:relative;height:18rem}
+.srcbox{position:absolute;background:var(--white);border:1px solid var(--line);border-radius:16px;padding:.9rem 1.1rem;font-weight:700;box-shadow:0 10px 30px rgba(36,39,39,.06);width:16rem;display:flex;align-items:center;gap:.7rem}
+.srcbox i{width:.7rem;height:.7rem;border-radius:50%;background:var(--ink3);flex:none}
+.ficha-target{position:absolute;right:0;top:50%;transform:translateY(-50%);width:22rem;background:var(--deep);color:#fff;border-radius:26px;padding:1.2rem;text-align:center;box-shadow:0 30px 70px rgba(0,106,89,.35)}
+.ficha-target .big{font-size:2.6rem}
+.ficha-target small{color:var(--mint2);font-weight:700;display:block}
+.ficha-target .note{margin-top:.5rem;font-size:.85rem;opacity:.85}
+
+/* TESIS */
+.tesis{display:grid;grid-template-columns:1fr auto 1fr;gap:1.4rem;align-items:center}
+@media (max-width:900px){.tesis{grid-template-columns:1fr}}
+.causa{background:var(--deep);color:var(--white);border-radius:26px;padding:2.2rem;text-align:center;transform-style:preserve-3d;will-change:transform;animation:tesisGlow 4.5s ease-in-out infinite;cursor:default}
+.causa .eyebrow{color:var(--mint2)}
+.causa h3{font-size:1.9rem;margin:.3rem 0 0;letter-spacing:-.02em}
+.sint{display:flex;flex-direction:column;gap:1rem}
+.sint .card{border-left:6px solid var(--alta);animation:tesisGlow 4.5s ease-in-out infinite;animation-delay:.4s;cursor:default}
+.sint .card:last-child{border-left-color:var(--media);animation-delay:.9s}
+@keyframes tesisGlow{0%,100%{box-shadow:0 10px 30px rgba(36,39,39,.06)}50%{box-shadow:0 16px 40px rgba(0,106,89,.16)}}
+#tesis .causa{animation-name:tesisGlowDark}
+@keyframes tesisGlowDark{0%,100%{box-shadow:0 10px 30px rgba(0,0,0,.08)}50%{box-shadow:0 20px 46px rgba(0,106,89,.4)}}
+.arrow{width:4rem;height:8rem;overflow:visible}
+.arrow path{stroke:var(--ink3);stroke-width:2;fill:none}
+.arrow .spark-halo{filter:blur(3.5px)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.4rem}
+.chips span{background:var(--white);border:1px solid var(--line);border-radius:999px;padding:.45rem .9rem;font-size:.9rem;font-weight:600;transition:transform .25s ease,box-shadow .25s ease}
+.chips span.t{border-color:var(--alta);color:var(--alta)}.chips span.c{border-color:var(--media);color:var(--media)}
+.chips span:hover{transform:translateY(-4px) scale(1.05);box-shadow:0 10px 22px rgba(36,39,39,.12);cursor:default}
+#tesis .chips{justify-content:space-between;flex-wrap:nowrap}
+#tesis .chips span{white-space:nowrap}
+
+/* MÉTODO horizontal */
+.hwrap{overflow:hidden;flex-direction:column;align-items:flex-start;justify-content:center}
+.metodo-sticky{width:100%}
+.metodo-sticky .in{margin-bottom:.5rem}
+.htrack{display:flex;gap:1rem;width:max-content;padding:1rem 0;align-items:stretch}
+.hpanel{width:min(56vw,19rem);background:var(--white);border:1px solid var(--line);border-radius:22px;padding:1.5rem;box-shadow:0 20px 50px rgba(36,39,39,.07);flex:none}
+.hpanel .n{width:2.4rem;height:2.4rem;border-radius:50%;background:var(--deep);color:#fff;font-weight:900;font-size:1.05rem;display:flex;align-items:center;justify-content:center;margin-bottom:.8rem}
+.hpanel h3{margin:0 0 .4rem;font-size:1.35rem;letter-spacing:-.02em}
+.hpanel p{margin:0;color:var(--ink2);font-size:.92rem;line-height:1.4}
+.hpanel.opt{background:var(--paper2)}
+.hpanel.win{border:2px solid var(--deep);background:var(--white);box-shadow:0 20px 45px rgba(0,106,89,.2)}
+
+/* SOLUCIÓN */
+.ciclo{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+@media (max-width:900px){.ciclo{grid-template-columns:1fr}}
+.ciclo .k{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--mint2)}
+.ladder-axis{font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.55);margin-top:1.8rem}
+.ladder{display:grid;grid-template-columns:repeat(5,1fr);gap:.5rem;margin-top:.6rem}
+@media (max-width:900px){.ladder{grid-template-columns:repeat(2,1fr)}}
+.ladder div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:1.4rem .8rem;font-size:.9rem;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.6rem}
+.ladder div svg{width:2.6rem;height:2.6rem;display:block;color:var(--mint2)}
+.ladder div span{display:block;font-weight:700}
+.ladder div.here{background:var(--white);color:var(--ink);border-color:var(--white);animation:hereGlow 3.6s ease-in-out infinite}
+.ladder div.here svg{color:var(--deep)}
+#solucion{overflow:hidden}
+.sol-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.sol-bg i{position:absolute;border-radius:50%;opacity:.55;will-change:transform}
+.sol-bg i:nth-child(1){width:28rem;height:28rem;background:radial-gradient(circle,var(--brand) 0%,transparent 68%);left:-6rem;top:-8rem;animation:solDrift1 16s ease-in-out infinite}
+.sol-bg i:nth-child(2){width:22rem;height:22rem;background:radial-gradient(circle,var(--mint2) 0%,transparent 68%);right:-4rem;top:30%;animation:solDrift2 20s ease-in-out infinite}
+.sol-bg i:nth-child(3){width:24rem;height:24rem;background:radial-gradient(circle,var(--deep2) 0%,transparent 68%);left:30%;bottom:-10rem;animation:solDrift3 24s ease-in-out infinite}
+@keyframes solDrift1{0%,100%{transform:translate(0,0)}50%{transform:translate(4rem,3rem)}}
+@keyframes solDrift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-3rem,-4rem)}}
+@keyframes solDrift3{0%,100%{transform:translate(0,0)}50%{transform:translate(3rem,-3rem)}}
+@keyframes hereGlow{0%,100%{box-shadow:0 0 0 rgba(255,255,255,0)}50%{box-shadow:0 8px 26px rgba(255,255,255,.45)}}
+
+/* DEMO CUE */
+.demo-cue{text-align:center}
+.demo-cue .ring{width:12rem;height:12rem;border-radius:50%;margin:0 auto 1.6rem;background:radial-gradient(circle,#fff 0%,var(--mint2) 40% 0%,transparent 68%);position:relative}
+.demo-cue .ring::before,.demo-cue .ring::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid rgba(255,255,255,.55);animation:ping 2.6s ease-out infinite}
+.demo-cue .ring::after{animation-delay:1.3s}
+@keyframes ping{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.9);opacity:0}}
+.demo-cue .ring img{position:absolute;inset:12%;width:76%;height:76%;object-fit:contain}
+
+/* PRINCIPIOS */
+.princ .card{text-align:center;display:flex;flex-direction:column;justify-content:center}
+#principios{position:relative;overflow:hidden}
+.princ-pic{position:absolute;right:4rem;top:2.5rem;width:12rem;height:12rem;z-index:0}
+.princ-pic .glow{position:absolute;inset:-1.5rem;border-radius:50%;background:radial-gradient(circle,rgba(28,201,171,.28) 0%,transparent 68%);animation:shieldGlow 4s ease-in-out infinite}
+.princ-pic img{position:relative;width:100%;height:100%;object-fit:contain;z-index:1}
+@media (max-width:1100px){.princ-pic{display:none}}
+.princ .big2{font-size:2.2rem;font-weight:900;letter-spacing:-.03em;color:var(--deep);line-height:1;min-height:2.2rem;display:flex;align-items:center;justify-content:center;gap:.35rem}
+.princ h3{min-height:3.75rem;display:flex;align-items:center;justify-content:center}
+.princ p{min-height:3.2rem;display:flex;align-items:center;justify-content:center}
+
+/* RESULTADOS */
+.kpis{display:flex;flex-direction:column;gap:.9rem}
+.kpi{display:grid;grid-template-columns:14rem 1fr 7rem;gap:1rem;align-items:center}
+@media (max-width:900px){.kpi{grid-template-columns:1fr}}
+.kpi .name{font-weight:800;font-size:1.05rem}
+.kpi .name small{display:block;color:var(--ink2);font-weight:500;font-size:.85rem}
+.kpi .bar{height:1.1rem;border-radius:999px;background:var(--paper2);position:relative;overflow:hidden;margin:.2rem 0}
+.kpi .bar i{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:999px}
+.kpi .bar.hoy i{background:var(--ink3)}.kpi .bar.des i{background:var(--deep)}
+.kpi .meta{display:flex;justify-content:space-between;font-size:.8rem;color:var(--ink2)}
+.kpi .val{text-align:right;font-weight:900;font-size:1.5rem;color:var(--deep)}
+.kpi .val small{display:block;font-size:.75rem;color:var(--ink2);font-weight:600}
+.kpi.miss .val{color:var(--media)}
+.formula{display:grid;grid-template-columns:repeat(5,1fr);gap:.8rem;margin-top:1.6rem}
+@media (max-width:900px){.formula{grid-template-columns:1fr}}
+.formula .f{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:1rem;text-align:center}
+.formula .f b{display:block;font-size:2rem;font-weight:900;letter-spacing:-.03em;color:var(--deep)}
+.formula .f span{font-size:.85rem;color:var(--ink2)}
+.formula .res{background:var(--deep);border-color:var(--deep)}
+.formula .res b{color:#fff}.formula .res span{color:var(--mint2)}
+
+/* PLAN */
+.tl{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1.5rem}
+@media (max-width:900px){.tl{grid-template-columns:1fr}}
+.tl .line{position:absolute;left:0;right:0;top:1.1rem;height:3px;background:var(--line)}
+.tl .line i{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--deep)}
+.tl .t{position:relative;z-index:1;transition:transform .2s ease}
+.tl .t:hover{transform:translateY(-4px)}
+.tl .t .d{width:2.6rem;height:2.6rem;border-radius:50%;background:var(--white);border:3px solid var(--deep);display:flex;align-items:center;justify-content:center;font-weight:900;color:var(--deep);margin-bottom:.8rem;position:relative;transition:background .4s ease,color .4s ease,box-shadow .4s ease}
+.tl .t .d svg{width:1.3rem;height:1.3rem}
+.tl .t.on .d{background:var(--deep);color:#fff;box-shadow:0 0 0 6px var(--mint)}
+.tl .t.on .d::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid var(--deep);animation:tlPing 1.4s ease-out}
+@keyframes tlPing{0%{transform:scale(.7);opacity:.6}100%{transform:scale(1.7);opacity:0}}
+.tl .t h3{margin:0 0 .3rem;font-size:1.1rem}
+.tl .t p{margin:0;font-size:.95rem;color:var(--ink2)}
+#plan{position:relative;overflow:hidden}
+.plan-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.plan-bg i{position:absolute;border-radius:50%;opacity:.55;will-change:transform}
+.plan-bg i:nth-child(1){width:22rem;height:22rem;background:radial-gradient(circle,var(--mint2) 0%,transparent 68%);right:-4rem;top:-6rem;animation:planDrift1 18s ease-in-out infinite}
+.plan-bg i:nth-child(2){width:18rem;height:18rem;background:radial-gradient(circle,#F3E7D0 0%,transparent 68%);left:6%;bottom:-6rem;animation:planDrift2 22s ease-in-out infinite}
+.plan-bg i:nth-child(3){width:16rem;height:16rem;background:radial-gradient(circle,var(--brand) 0%,transparent 68%);right:18%;bottom:6%;opacity:.3;animation:planDrift3 16s ease-in-out infinite}
+@keyframes planDrift1{0%,100%{transform:translate(0,0)}50%{transform:translate(-3rem,3rem)}}
+@keyframes planDrift2{0%,100%{transform:translate(0,0)}50%{transform:translate(3rem,-2rem)}}
+@keyframes planDrift3{0%,100%{transform:translate(0,0)}50%{transform:translate(-2rem,-3rem)}}
+.plan-road{position:absolute;left:0;right:0;top:34%;width:100%;height:4rem;z-index:0;opacity:.5}
+.gatelabel{font-weight:800;font-size:.95rem;color:var(--deep);margin-top:1.8rem;display:block}
+.gate{margin-top:.8rem}
+.gate .card{display:flex;align-items:center;gap:1rem;padding:1.1rem 1.3rem}
+.gate .gic{width:2.6rem;height:2.6rem;border-radius:50%;background:var(--mint);display:flex;align-items:center;justify-content:center;flex:none;animation:gicPulse 2.8s ease-in-out infinite}
+.gate .gic:nth-child(1){animation-delay:0s}
+.gate p{margin:0;font-size:.95rem;color:var(--ink2)}
+.gate p b{color:var(--ink)}
+@keyframes gicPulse{0%,100%{box-shadow:0 0 0 0 rgba(0,106,89,.25)}50%{box-shadow:0 0 0 8px rgba(0,106,89,0)}}
+.kill b{color:var(--alta)}
+
+/* STAKEHOLDERS */
+.sh .card{padding:1.2rem 1.3rem}
+.sh .card h3{font-size:1.05rem;margin-bottom:.5rem}
+.sh .g,.sh .p{font-size:.92rem;margin:.15rem 0}
+.sh .g::before{content:"+ ";color:var(--buena);font-weight:900}.sh .p::before{content:"– ";color:var(--alta);font-weight:900}
+table{border-collapse:collapse;width:100%;background:var(--white);font-size:.95rem}
+th,td{text-align:left;padding:.8rem 1rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:var(--ink2);background:var(--paper)}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:18px;margin-top:1.4rem;position:relative;z-index:1;background:var(--white)}
+#riesgos{position:relative;overflow:hidden}
+.riesgos-bg{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.riesgos-bg i{position:absolute;border-radius:50%;opacity:.5;will-change:transform}
+.riesgos-bg i:nth-child(1){width:24rem;height:24rem;background:radial-gradient(circle,#F8ECD2 0%,transparent 68%);right:-6rem;top:-8rem;animation:planDrift1 19s ease-in-out infinite}
+.riesgos-bg i:nth-child(2){width:20rem;height:20rem;background:radial-gradient(circle,var(--mint2) 0%,transparent 68%);left:-4rem;bottom:-6rem;animation:planDrift2 23s ease-in-out infinite}
+.riesgos-bg i:nth-child(3){width:16rem;height:16rem;background:radial-gradient(circle,var(--alta-soft) 0%,transparent 68%);right:22%;bottom:8%;opacity:.4;animation:planDrift3 17s ease-in-out infinite}
+
+/* DATOS */
+.shield{display:grid;grid-template-columns:auto 1fr;gap:5rem;align-items:center;position:relative}
+@media (max-width:900px){.shield{grid-template-columns:1fr}}
+.shield .icwrap{position:relative;display:flex;align-items:center;justify-content:center}
+.shield .glow{position:absolute;width:19rem;height:19rem;border-radius:50%;background:radial-gradient(circle,rgba(28,201,171,.4) 0%,transparent 68%);animation:shieldGlow 4s ease-in-out infinite;z-index:0}
+.shield .ring{position:absolute;width:20rem;height:20rem;border-radius:50%;border:1.5px dashed rgba(255,255,255,.3);z-index:0}
+.shield .ring::before{content:"";position:absolute;inset:-2px;border-radius:50%;border:2px dashed transparent;border-top-color:rgba(255,255,255,.65);border-right-color:rgba(255,255,255,.65);animation:shieldSpin 6s linear infinite}
+.shield .scan{position:absolute;left:8%;right:8%;height:3px;top:10%;border-radius:2px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.9),transparent);animation:shieldScan 3.2s ease-in-out infinite;z-index:1}
+@keyframes shieldGlow{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:.95;transform:scale(1.08)}}
+@keyframes shieldSpin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes shieldScan{0%{top:8%;opacity:0}15%{opacity:1}85%{opacity:1}100%{top:82%;opacity:0}}
+.shield svg{width:16rem;height:18rem;position:relative;z-index:1}
+.shield path.o{fill:none;stroke:var(--brand);stroke-width:3}
+.lists .card{transition:transform .2s ease}
+#datos .chips span{transition:transform .25s ease,box-shadow .25s ease,background .25s ease;animation:chipPulse 3.4s ease-in-out infinite}
+#datos .chips span:nth-child(2){animation-delay:.5s}#datos .chips span:nth-child(3){animation-delay:1s}#datos .chips span:nth-child(4){animation-delay:1.5s}
+@keyframes chipPulse{0%,100%{box-shadow:0 0 0 0 rgba(255,255,255,0)}50%{box-shadow:0 0 0 5px rgba(255,255,255,.08)}}
+#datos .chips span:hover{transform:translateY(-4px) scale(1.05);background:rgba(255,255,255,.22)!important;box-shadow:0 10px 24px rgba(0,0,0,.3)!important}
+.lists{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+@media (max-width:900px){.lists{grid-template-columns:1fr}}
+.lists .card ul{margin:.4rem 0 0;padding-left:1.1rem}
+.lists .card li{margin:.35rem 0;font-size:.98rem}
+
+/* CIERRE */
+.cierre .grid5 .stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:20px;padding:1.2rem}
+.cierre .grid5 .big{font-size:3rem;min-height:3rem;display:flex;align-items:center}
+.cierre .grid5 .big.sm{font-size:2.1rem;white-space:nowrap}
+.paises{display:flex;flex-wrap:wrap;gap:.4rem;margin:1.6rem auto 0;justify-content:center;max-width:44rem}
+.paises span{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:.3rem .65rem;font-size:.8rem;white-space:nowrap}
+.paises span.mx{background:var(--white);color:var(--deep);font-weight:800}
+.cierre-bottom{margin-top:1.6rem}
+.cierre-cta{display:flex;align-items:center;gap:1rem;margin-top:1rem;flex-wrap:wrap}
+.cierre-cta details{flex:1;min-width:16rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:18px;padding:1rem 1.3rem;margin:0}
+.cierre-cta summary{cursor:pointer;font-weight:800}
+.cierre-cta .btn{flex:none}
+details p{font-size:.95rem;color:rgba(255,255,255,.85)}
+.foot{position:relative;z-index:1;padding:.7rem 1.6rem;text-align:center;color:var(--ink2);font-size:.85rem}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+
+<div class="glow" id="glow"></div>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="prog" id="prog"></div>
+
+<header class="top" id="top">
+  <div class="logo"><span class="dot"><img src="img/doctoralia-icon.png" alt=""></span>Doctor 360 <small>Propuesta · Customer Success</small></div>
+  <nav id="nav"><a href="#hoy">Hoy</a><a href="#tesis">Causa</a><a href="#metodo">Método</a><a href="#solucion">Solución</a><a href="#resultados">Resultados</a><a href="#plan">Plan</a><a href="#riesgos">Riesgos</a><a href="#datos">Seguridad</a><a href="#cierre">Cierre</a></nav>
+</header>
+<div class="dots" id="dots"></div>
+
+<!-- 1 HÉROE -->
+<section class="dark hero" id="inicio">
+  <canvas id="hero-cv"></canvas>
+  <div class="in">
+    <span class="eyebrow" data-a="fade">Business Case · Doctoralia México</span>
+    <h1 class="chars" id="h1">Doctor <em>360</em></h1>
+    <p class="sub type" style="font-size:1.35rem;color:#fff"><span id="type"></span><i></i></p>
+    <div data-a="fade" style="display:flex;gap:.7rem;flex-wrap:wrap"><a class="btn light" href="#cierre">Ver la propuesta</a><a class="btn ghost" href="dashboard/index.html" target="_blank" rel="noopener">Abrir Doctor 360</a></div>
+  </div>
+  <div class="fcard f1"><div class="h"><span class="av" style="background:#B3261E">ID</span>Dra. Islas Durán</div><div class="m">Endocrinología · Guadalajara · Plus</div><div class="m">Renueva en 15 días con reservas a la baja (−34%)</div><span class="pill" style="background:var(--alta-soft);color:var(--alta)">Rescatar</span></div>
+  <div class="fcard f2"><div class="h"><span class="av" style="background:#9A6A12">FP</span>Dr. Flores Peña</div><div class="m">Cardiología · Puebla · VIP</div><div class="m">Reservas a la baja 28%, todavía sin caída crítica</div><span class="pill" style="background:var(--media-soft);color:var(--media)">Riesgo de downgrade</span></div>
+  <div class="fcard f3"><div class="h"><span class="av" style="background:#1D6B3F">SU</span>Dra. Salas Urbina</div><div class="m">Traumatología · Tijuana · Plus</div><div class="m">Reservas +56%: el plan le queda chico</div><span class="pill" style="background:var(--buena-soft);color:var(--buena)">Probable crecimiento</span></div>
+  <div class="legend"><span><i style="background:#F0907E"></i>Rescatar 135</span><span><i style="background:#E0B25A"></i>Riesgo de downgrade 143</span><span><i style="background:#6FC98F"></i>Probable crecimiento 215</span><span><i style="background:rgba(255,255,255,.55)"></i>Sin acción 707</span></div>
+
+</section>
+
+<!-- 2 HOY -->
+<section id="hoy">
+  <div class="in">
+    <span class="eyebrow" data-a="up">Situación actual</span>
+    <h2 data-a="up">Cada sesión empieza con <em>45 minutos</em> de búsqueda.</h2>
+    <div class="grid3" style="margin:1rem 0 1.2rem">
+      <div class="stat" data-a="up"><span class="big g" data-n="28">0</span><span class="l">Customer Success Specialists</span></div>
+      <div class="stat" data-a="up"><span class="big g" data-n="1200">0</span><span class="l">doctores activos · 43 por especialista</span></div>
+      <div class="stat" data-a="up"><span class="big g" data-n="45" data-suf=" min">0</span><span class="l">de preparación por reunión, en cinco herramientas</span></div>
+    </div>
+    <div class="hoy-stage" id="hoy-stage">
+      <div class="srcbox s" style="left:0;top:0"><i style="background:var(--brand)"></i>Salesforce · historial</div>
+      <div class="srcbox s" style="left:6%;top:24%"><i style="background:var(--alta)"></i>Tickets de soporte</div>
+      <div class="srcbox s" style="left:0;top:48%"><i style="background:var(--media)"></i>Notas de reuniones</div>
+      <div class="srcbox s" style="left:7%;top:72%"><i style="background:var(--buena)"></i>Productos contratados</div>
+      <div class="srcbox s" style="left:2%;top:96%"><i style="background:var(--deep2)"></i>Dashboards de uso</div>
+      <div class="ficha-target"><span class="big" data-n="900">0</span><small>horas al mes preparando sesiones</small><div class="note">5.6 personas de tiempo completo buscando información</div><div style="margin-top:.7rem"><span class="tag" style="background:rgba(255,255,255,.15);color:#fff">Supuesto: 1 sesión al mes por doctor</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 TESIS -->
+<section class="white" id="tesis">
+  <div class="in">
+    <span class="eyebrow" data-a="up">La lectura del problema</span>
+    <h2 data-a="up">Una causa, <em>dos síntomas</em>.</h2>
+    <p class="sub" data-a="up">Ganar tiempo no alcanza: hace falta saber qué hacer con él.</p>
+    <div class="tesis">
+      <div class="causa" data-a="pop"><span class="eyebrow">Causa</span><h3>La información vive dispersa y sin jerarquía</h3></div>
+      <svg class="arrow" viewBox="0 0 60 120" aria-hidden="true">
+        <defs><radialGradient id="sparkGrad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFF6D8" stop-opacity=".8"/><stop offset="45%" stop-color="#FFC94D" stop-opacity=".45"/><stop offset="100%" stop-color="#FFC94D" stop-opacity="0"/></radialGradient></defs>
+        <circle class="spark-halo" r="4" fill="url(#sparkGrad)"><animateMotion dur="2.2s" repeatCount="indefinite" path="M2 60 C30 60 30 15 58 15"/></circle>
+        <circle class="spark-core" r="1.1" fill="#FFF6D8" opacity=".85"><animateMotion dur="2.2s" repeatCount="indefinite" path="M2 60 C30 60 30 15 58 15"/></circle>
+        <circle class="spark-halo" r="4" fill="url(#sparkGrad)"><animateMotion dur="2.2s" repeatCount="indefinite" path="M2 60 C30 60 30 105 58 105"/></circle>
+        <circle class="spark-core" r="1.1" fill="#FFF6D8" opacity=".85"><animateMotion dur="2.2s" repeatCount="indefinite" path="M2 60 C30 60 30 105 58 105"/></circle>
+        <path class="draw" d="M2 60 C30 60 30 15 58 15"/><path class="draw" d="M2 60 C30 60 30 105 58 105"/>
+      </svg>
+      <div class="sint">
+        <div class="card" data-a="right"><span class="tag bad">Síntoma 1 · tiempo</span><h3>45 minutos buscando</h3><p>→ una ficha</p></div>
+        <div class="card" data-a="right"><span class="tag warn">Síntoma 2 · criterio</span><h3>Y al final, sin siguientes pasos definidos</h3><p>→ una acción por doctor</p></div>
+      </div>
+    </div>
+    <div class="chips" data-a="up"><span class="t">Preparación inconsistente</span><span class="c">Reuniones sin foco</span><span class="c">Oportunidades perdidas</span><span class="c">Riesgo detectado tarde</span><span class="c">Experiencia poco personalizada</span></div>
+  </div>
+</section>
+
+<!-- 4 MÉTODO (horizontal) -->
+<section id="metodo" class="hwrap">
+  <div class="metodo-sticky">
+  <div class="in">
+    <span class="eyebrow" data-a="up">El camino hasta la propuesta</span>
+    <h2 data-a="up">Tres caminos. <em>Uno resuelve la causa</em>.</h2>
+    <p class="sub" data-a="up">Cuatro pasos para llegar, tres opciones evaluadas.</p>
+  </div>
+  <div class="htrack" id="htrack">
+    <div class="hpanel"><div class="n">D</div><h3>Definir</h3><p>Dos síntomas, cuatro KPIs. Números, no adjetivos.</p></div>
+    <div class="hpanel"><div class="n">A</div><h3>Analizar</h3><p>Línea base de 45 minutos y churn rescatable.</p></div>
+    <div class="hpanel"><div class="n">M</div><h3>Mejorar</h3><p>Priorizar y consolidar, sin abrir nada nuevo.</p></div>
+    <div class="hpanel"><div class="n">C</div><h3>Controlar</h3><p>Piloto con grupo de control y un criterio para decidir.</p></div>
+    <div class="hpanel opt"><span class="tag warn">Camino 1 · parcial</span><h3>Ficha automática</h3><p>Ahorra tiempo. No cambia la decisión.</p></div>
+    <div class="hpanel opt"><span class="tag warn">Camino 2 · parcial</span><h3>Estandarizar el criterio</h3><p>Sirve, pero sin herramienta nadie lo sigue.</p></div>
+    <div class="hpanel win"><span class="tag good">Camino 3 · elegido</span><h3>Priorizar y consolidar</h3><p>Resuelve la causa. Los otros dos son sus fases.</p></div>
+  </div>
+  </div>
+</section>
+
+<!-- 5 SOLUCIÓN -->
+<section class="dark" id="solucion">
+  <div class="sol-bg"><i></i><i></i><i></i></div>
+  <div class="in">
+    <span class="eyebrow" data-a="up">La solución</span>
+    <h2 data-a="up">El ciclo: <em>antes, durante, después.</em></h2>
+    <p class="sub" data-a="up">La IA entra en tres lugares. En ninguno decide sola.</p>
+    <div class="ciclo">
+      <div class="card tilt" data-a="up"><span class="k">Motor</span><h3>Cada doctor amanece con una acción</h3><p>Reglas contra su propia línea base. En el mes 4, un modelo entrenado con el piloto afina el orden.</p></div>
+      <div class="card tilt" data-a="up"><span class="k">Ficha</span><h3>Una pantalla en lugar de cinco</h3><p>La IA redacta el resumen y la agenda. Al correo a las 7:00.</p></div>
+      <div class="card tilt" data-a="up"><span class="k">Sesión</span><h3>La persona conversa y decide</h3><p>La IA vuelve campos la nota o la transcripción que ya existe. La persona confirma.</p></div>
+    </div>
+    <div class="ladder-axis" data-a="up">De lo manual a lo autónomo</div>
+    <div class="ladder" id="ladder">
+      <div><svg viewBox="0 0 24 24" fill="none"><path d="M4 20l3.5-1 10-10a1.6 1.6 0 0 0-2.5-2.5l-10 10L4 20Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Registro</span></div>
+      <div><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.8"/><path d="M8 12h8M8 8h8M8 16h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Reglas</span></div>
+      <div class="here"><svg viewBox="0 0 24 24" fill="none"><circle cx="5.5" cy="12" r="2.2" stroke="currentColor" stroke-width="1.8"/><circle cx="18.5" cy="6" r="2.2" stroke="currentColor" stroke-width="1.8"/><circle cx="18.5" cy="18" r="2.2" stroke="currentColor" stroke-width="1.8"/><path d="M7.5 11l9-4M7.5 13l9 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Flujo</span></div>
+      <div class="here"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="13" r="7.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 9v4l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Script</span></div>
+      <div class="here"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>IA</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 DEMO -->
+<section class="dark" id="demo" style="background:linear-gradient(160deg,var(--deep2),var(--deep3))">
+  <div class="in demo-cue">
+    <div class="ring" data-a="pop"><img src="img/3d-doctor-telefono.webp" alt=""></div>
+    <span class="eyebrow" data-a="up">Demo</span>
+    <h2 data-a="up">Doctor 360, <em>en vivo</em>.</h2>
+    <p class="sub" data-a="up" style="margin:0 auto 1.6rem">Un día completo de un Customer Success Specialist, en tiempo real.</p>
+  </div>
+</section>
+
+<!-- 7 PRINCIPIOS -->
+<section class="white" id="principios">
+  <div class="princ-pic" data-a="pop"><div class="glow"></div><img src="img/3d-doctor-lentes.webp" alt=""></div>
+  <div class="in">
+    <span class="eyebrow" data-a="up">Cómo decide el motor</span>
+    <h2 data-a="up">Cuatro reglas. <em>Un motor preciso</em>.</h2>
+    <div class="grid4 princ" style="margin-top:1.8rem">
+      <div class="card tilt" data-a="up"><div class="big2">Su ritmo</div><h3>Contra su propio historial</h3><p>Compara su actual contra su histórico.</p></div>
+      <div class="card tilt" data-a="up"><div class="big2">90 días</div><h3>De anticipación</h3><p>A 30 días ya es tarde para bajar de plan.</p></div>
+      <div class="card tilt" data-a="up"><div class="big2"><span>1</span><span>Acción</span></div><h3>por doctor</h3><p>Rescatar antes que crecer. Sin alertas repetidas.</p></div>
+      <div class="card tilt" data-a="up"><div class="big2">0 ocultos</div><h3>Nadie sale de la vista</h3><p>La máquina etiqueta. La persona archiva.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 RESULTADOS -->
+<section id="resultados">
+  <div class="in">
+    <span class="eyebrow" data-a="up">Resultados esperados</span>
+    <h2 data-a="up">Los cuatro KPIs de la Dirección, <em>leídos a seis meses</em>.</h2>
+    <p class="sub" data-a="up">Seis meses: cuando el churn se puede leer de verdad.</p>
+    <div class="kpis" id="kpis">
+      <div class="kpi"><div class="name">Churn mensual<small>meta &lt;3%</small></div><div><div class="bar hoy"><i data-w="96"></i></div><div class="bar des"><i data-w="59"></i></div><div class="meta"><span>hoy 4.8%</span><span>Doctor 360</span></div></div><div class="val">2.94%<small>llega</small></div></div>
+      <div class="kpi"><div class="name">CSAT<small>meta &gt;90%</small></div><div><div class="bar hoy"><i data-w="82"></i></div><div class="bar des"><i data-w="92"></i></div><div class="meta"><span>hoy 82%</span><span>Doctor 360</span></div></div><div class="val">92%<small>llega</small></div></div>
+      <div class="kpi"><div class="name">NPS<small>meta &gt;60</small></div><div><div class="bar hoy"><i data-w="46"></i></div><div class="bar des"><i data-w="60"></i></div><div class="meta"><span>hoy 46</span><span>Doctor 360</span></div></div><div class="val">60<small>llega</small></div></div>
+      <div class="kpi miss"><div class="name">Upsell rate<small>meta 28% · ritmo anual</small></div><div><div class="bar hoy"><i data-w="64"></i></div><div class="bar des"><i data-w="92"></i></div><div class="meta"><span>hoy 18%</span><span>Doctor 360</span></div></div><div class="val">25.8%<small>no llega, a propósito</small></div></div>
+      <div class="kpi"><div class="name">Preparación por reunión<small>no lo piden; lo medimos</small></div><div><div class="bar hoy"><i data-w="100"></i></div><div class="bar des"><i data-w="47"></i></div><div class="meta"><span>hoy 45 min</span><span>Doctor 360</span></div></div><div class="val">21 min<small>30 los primeros 2 meses</small></div></div>
+    </div>
+    <div class="formula" id="formula">
+      <div class="f"><b>58</b><span>doctores que se van al mes hoy</span></div>
+      <div class="f"><b>52</b><span>los marca el motor a tiempo · detección 90%</span></div>
+      <div class="f"><b>43%</b><span>de los marcados se rescatan en sesión</span></div>
+      <div class="f"><b>22</b><span>doctores rescatados al mes</span></div>
+      <div class="f res"><b>2.94%</b><span>churn mensual</span></div>
+    </div>
+    <p data-a="up" style="margin:1rem 0 0;color:var(--ink2);font-size:1rem">Dos palancas, medibles en ocho semanas. Upsell llega a 28 en el año dos: retener va primero.</p>
+  </div>
+</section>
+
+<!-- 9 PLAN -->
+<section class="white" id="plan">
+  <div class="plan-bg">
+    <i></i><i></i><i></i>
+    <svg class="plan-road" viewBox="0 0 1180 60" preserveAspectRatio="none" aria-hidden="true"><path d="M10 45 C 250 45, 250 15, 400 15 S 650 45, 780 45 S 1000 15, 1170 15" fill="none" stroke="var(--brand)" stroke-width="2" stroke-dasharray="1 14" stroke-linecap="round"/></svg>
+  </div>
+  <div class="in">
+    <span class="eyebrow" data-a="up">Plan</span>
+    <h2 data-a="up">Piloto con grupo de control, <em>no antes y después</em>.</h2>
+    <p class="sub" data-a="up">Ocho con la herramienta, veinte sin ella. Mismo periodo.</p>
+    <div class="tl" id="tl">
+      <div class="line"><i id="tl-fill"></i></div>
+      <div class="t" data-a="up"><div class="d"><svg viewBox="0 0 24 24" fill="none"><path d="M9 3h6M10 3v5.5L5.5 17a2 2 0 0 0 1.8 3h9.4a2 2 0 0 0 1.8-3L14 8.5V3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 14h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><h3>Semanas 1 a 8 · piloto</h3><p>8 especialistas con Doctor 360, 20 sin él. Misma línea de partida.</p></div>
+      <div class="t" data-a="up"><div class="d"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2c2 2.5 3 5.5 3 8.5 0 2-.5 3.7-1.3 5.2L12 22l-1.7-6.3A10 10 0 0 1 9 10.5C9 7.5 10 4.5 12 2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="10" r="1.6" stroke="currentColor" stroke-width="1.6"/><path d="M9 16.5c-1.6.6-2.6 1.6-2.6 2.8C6.4 20.8 9 22 12 22s5.6-1.2 5.6-2.7c0-1.2-1-2.2-2.6-2.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><h3>Semanas 9 a 12 · despliegue</h3><p>Los 28, formados por training.</p></div>
+      <div class="t" data-a="up"><div class="d"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V10M10 19V5M16 19v-7M20 19H4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="6" r="2.4" stroke="currentColor" stroke-width="1.8"/></svg></div><h3>Mes 6 · lectura</h3><p>Se leen los cuatro KPIs. Sin piloto: mes 4.</p></div>
+      <div class="t" data-a="up"><div class="d"><svg viewBox="0 0 24 24" fill="none"><path d="M4.5 12a7.5 7.5 0 0 1 12.8-5.3L20 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 4v5h-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.5 12a7.5 7.5 0 0 1-12.8 5.3L4 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 20v-5h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Mes 4 · modelo</h3><p>Con los desenlaces del piloto como etiquetas, la IA afina el ranking.</p></div>
+    </div>
+    <span class="gatelabel" data-a="up">El piloto pasa a producción si, a la semana 8:</span>
+    <div class="grid3 gate">
+      <div class="card tilt" data-a="pop"><div class="gic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="var(--deep)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><p>La preparación bajó <b>35%</b> o más</p></div>
+      <div class="card tilt" data-a="pop"><div class="gic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="var(--deep)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><p><b>6 de 8</b> especialistas lo usan solos</p></div>
+      <div class="card tilt" data-a="pop"><div class="gic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="var(--deep)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div><p>El rescate <b>supera</b> al grupo de control</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 RIESGOS -->
+<section id="riesgos">
+  <div class="riesgos-bg"><i></i><i></i><i></i></div>
+  <div class="princ-pic" data-a="pop"><div class="glow"></div><img src="img/3d-clipboard.webp" alt=""></div>
+  <div class="in">
+    <span class="eyebrow" data-a="up">Riesgos</span>
+    <h2 data-a="up">Qué puede salir mal, <em>y cómo se reduce</em>.</h2>
+    <div class="tblwrap" data-a="up" style="margin-top:1.8rem"><table>
+      <thead><tr><th>Riesgo</th><th>Qué pasa si ocurre</th><th>Cómo se reduce</th></tr></thead>
+      <tbody>
+        <tr><td><b>El motor se equivoca</b></td><td>Un doctor en riesgo no aparece</td><td>Nadie sale de la vista. Revisión semanal de los que se fueron sin marca.</td></tr>
+        <tr><td><b>No lo usan</b></td><td>Herramienta bonita, cero adopción</td><td>Llega al correo. Training forma. Se revisa en la semana 8.</td></tr>
+        <tr><td><b>Datos sucios en Salesforce</b></td><td>Fichas incompletas, confianza perdida</td><td>La ficha muestra qué falta, no lo inventa.</td></tr>
+        <tr><td><b>Texto con datos de pacientes</b></td><td>Incumplimiento de datos sensibles</td><td>Texto redactado. Solo herramientas aprobadas.</td></tr>
+        <tr><td><b>Exceso de alertas</b></td><td>El CS deja de confiar y las ignora todas</td><td>Una acción por doctor. Nunca alertas repetidas.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- 11 DATOS -->
+<section class="dark" id="datos">
+  <div class="in shield">
+    <div class="icwrap"><div class="glow"></div><div class="ring"></div><div class="scan"></div><svg viewBox="0 0 140 160" aria-hidden="true"><path class="o draw" d="M70 6 L128 26 V78 C128 116 100 142 70 154 C40 142 12 116 12 78 V26 Z"/><path class="draw" d="M46 82 L64 100 L98 60" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div>
+      <span class="eyebrow" data-a="up">Datos y cumplimiento</span>
+      <h2 data-a="up">Datos de salud: <em>sensibles por ley</em>.</h2>
+      <p class="sub" data-a="up">Además de la ley, los estándares de seguridad que Doctoralia ya certifica.</p>
+      <div class="lists" style="margin-top:1.4rem">
+        <div class="card tilt" data-a="up"><h3>Lo que entra al modelo</h3><ul><li>Reservas, visitas, tickets, plan, renovación</li><li>Data masking: texto de pacientes redactado</li><li>Solo herramientas corporativas aprobadas</li></ul></div>
+        <div class="card tilt" data-a="up"><h3>Lo que nunca entra</h3><ul><li>Expedientes ni diagnósticos</li><li>Grabaciones sin consentimiento</li><li>Cuentas personales ni IA gratuita</li><li>Zero Data Retention: nada se guarda más allá del ciclo</li></ul></div>
+      </div>
+      <div class="chips" data-a="up" style="margin-top:1.2rem">
+        <span style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#fff">LFPDPPP 2025</span>
+        <span style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#fff">ISO/IEC 27001</span>
+        <span style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#fff">Aviso de privacidad MX</span>
+        <span style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#fff">NOM-024</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 CIERRE -->
+<section class="dark cierre" id="cierre" style="background:linear-gradient(160deg,var(--deep3),var(--deep))">
+  <div class="in">
+    <span class="eyebrow" data-a="up">Resultado final</span>
+    <h2 data-a="up">Más medición. <em>Menos IA</em>.</h2>
+    <p class="sub" data-a="up">Scripts de Python. La IA entra en momentos puntuales, no en todo el flujo.</p>
+    <div class="grid5" style="margin:2.6rem 0 2.4rem">
+      <div class="stat" data-a="pop"><span class="big" data-n="21" data-suf=" min">0</span><span class="l">de preparación por reunión</span></div>
+      <div class="stat" data-a="pop"><span class="big">2.94%</span><span class="l">churn mensual a seis meses</span></div>
+      <div class="stat" data-a="pop"><span class="big" data-n="92" data-suf="%">0</span><span class="l">CSAT</span></div>
+      <div class="stat" data-a="pop"><span class="big" data-n="8" data-suf=" sem">0</span><span class="l">para saber si funciona</span></div>
+      <div class="stat" data-a="pop"><span class="big sm">$0 MXN</span><span class="l">Corre en lo que ya se tiene</span></div>
+    </div>
+    <div class="paises" data-a="up"><span class="mx">México</span><span>Brasil</span><span>Polonia</span><span>España</span><span>Italia</span><span>Alemania</span><span>Turquía</span><span>Colombia</span><span>Chile</span><span>Perú</span><span>Argentina</span><span>Portugal</span><span>Chequia</span></div>
+    <div class="cierre-bottom" data-a="up">
+      <p style="font-size:.95rem;color:rgba(255,255,255,.7)">Si funciona en México, el manual queda listo para los otros 12 países.</p>
+    </div>
+    <div class="cierre-cta" data-a="up">
+      <details>
+        <summary>Apéndice · supuestos y escenarios</summary>
+        <p>Una sesión al mes por doctor · 150 MXN por hora cargada · precios de lista Starter $1,740, Plus $2,340, VIP $2,970 (+IVA, anual) · 60% del churn es rescatable por CS · rampa de adopción 2 meses a 30 min · detección 90% respaldada en backtest de un motor similar · rescate 43% dentro del rango publicado 14–51%.</p>
+        <p>Escenarios: conservador churn 3.7% y upsell 22% · base 2.94% y 25.8% · optimista 2.9% y 29.5%.</p>
+      </details>
+      <a class="btn ghost cta-glow" href="dashboard/index.html" target="_blank" rel="noopener">Abrir Doctor 360</a>
+    </div>
+  </div>
+</section>
+
+<div class="foot">Doctor 360 · Caso práctico · Datos Demo · Planes, productos y normativa verificados al 18/06/2026</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(function(){
+  gsap.registerPlugin(ScrollTrigger);
+  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- cursor glow ---------- */
+  var glow=document.getElementById("glow");
+  var glowX=gsap.quickTo(glow,"left",{duration:.5,ease:"power2.out"}), glowY=gsap.quickTo(glow,"top",{duration:.5,ease:"power2.out"});
+  addEventListener("mousemove",function(e){ glowX(e.clientX); glowY(e.clientY); },{passive:true});
+
+  /* ---------- HÉROE: 1,200 doctores que se ordenan ---------- */
+  var cv=document.getElementById("hero-cv"), cx=cv.getContext("2d");
+  var COUNTS={R:135,D:143,C:215,N:707}, COL={R:"#F0907E",D:"#E0B25A",C:"#6FC98F",N:"rgba(255,255,255,.55)"};
+  var dots=[], W,H, phase=0; // 0 = caos, 1 = ordenados
+  function sizeHero(){ var r=cv.getBoundingClientRect(); W=cv.width=r.width*devicePixelRatio; H=cv.height=r.height*devicePixelRatio; cx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0); layout(); }
+  function layout(){
+    var w=cv.getBoundingClientRect().width, h=cv.getBoundingClientRect().height;
+    var groups=[["R",COUNTS.R],["D",COUNTS.D],["C",COUNTS.C],["N",COUNTS.N]];
+    // centros de las 4 nubes en la mitad derecha
+    var cxs=[w*.62,w*.86,w*.62,w*.86], cys=[h*.32,h*.32,h*.72,h*.72];
+    if(!dots.length){ groups.forEach(function(g){ for(var i=0;i<g[1];i++) dots.push({k:g[0],x:Math.random()*w,y:Math.random()*h,tx:0,ty:0,r:1.6+Math.random()*1.6,s:.4+Math.random()*.8}); }); }
+    var idx=0;
+    groups.forEach(function(g,gi){ var n=g[1], rad=Math.sqrt(n)*(gi===3?4.2:5.2);
+      for(var i=0;i<n;i++){ var d=dots[idx++]; var a=Math.random()*6.283, rr=Math.sqrt(Math.random())*rad; d.tx=cxs[gi]+Math.cos(a)*rr; d.ty=cys[gi]+Math.sin(a)*rr; d.cx=Math.random()*w; d.cy=Math.random()*h; } });
+  }
+  sizeHero(); addEventListener("resize",sizeHero);
+  // "vigilar": avisa cuando un elemento entra o sale de la pantalla. Se calcula
+  // con geometría en cada scroll (barato) y no depende de ninguna librería.
+  var vigilados=[];
+  function vigilar(el, fn){ var v={el:el,fn:fn,estado:null}; vigilados.push(v); revisar(v); }
+  function revisar(v){ var r=v.el.getBoundingClientRect(); var ahora = r.bottom>0 && r.top<innerHeight; if(ahora!==v.estado){ v.estado=ahora; v.fn(ahora); } }
+  var vigT=null; addEventListener("scroll",function(){ if(vigT) return; vigT=setTimeout(function(){ vigT=null; vigilados.forEach(revisar); },80); },{passive:true});
+  addEventListener("resize",function(){ vigilados.forEach(revisar); });
+  setInterval(function(){ vigilados.forEach(revisar); }, 600); // respaldo: si no llega el evento de scroll
+  var t=0, heroVisible=true;
+  vigilar(cv, function(v){ heroVisible=v; if(v && !reduce) requestAnimationFrame(drawHero); });
+  function drawHero(){
+    if(!heroVisible) return;
+    var w=cv.getBoundingClientRect().width, h=cv.getBoundingClientRect().height; t+=.008;
+    cx.clearRect(0,0,w,h);
+    for(var i=0;i<dots.length;i++){ var d=dots[i];
+      var gx = phase? d.tx : d.cx + Math.sin(t*d.s*3+i)*14, gy = phase? d.ty : d.cy + Math.cos(t*d.s*2+i)*14;
+      d.x+=(gx-d.x)*.045; d.y+=(gy-d.y)*.045;
+      cx.beginPath(); cx.arc(d.x,d.y,d.r,0,6.283); cx.fillStyle=COL[d.k]; cx.fill(); }
+    requestAnimationFrame(drawHero);
+  }
+  if(!reduce) drawHero(); else { phase=1; dots.forEach(function(d){ d.x=d.tx; d.y=d.ty; }); var w=cv.getBoundingClientRect().width,h=cv.getBoundingClientRect().height; dots.forEach(function(d){ cx.beginPath(); cx.arc(d.x,d.y,d.r,0,6.283); cx.fillStyle=COL[d.k]; cx.fill(); }); }
+  // alterna caos / orden cada 5 s
+  setInterval(function(){ phase = phase?0:1; }, 5200); setTimeout(function(){ phase=1; }, 1800);
+
+  // título por letras
+  var h1=document.getElementById("h1"); var html=""; h1.childNodes.forEach(function(n){ if(n.nodeType===3){ n.textContent.split("").forEach(function(c){ html+='<span>'+(c===" "?"&nbsp;":c)+'</span>'; }); } else { html+='<em>'+n.textContent.split("").map(function(c){ return '<span>'+c+'</span>'; }).join("")+'</em>'; } }); h1.innerHTML=html;
+  gsap.from("#h1 span",{y:60,opacity:0,rotateX:-60,stagger:.05,duration:.9,ease:"back.out(1.6)",delay:.2});
+  gsap.from(".hero [data-a=fade]",{opacity:0,y:16,duration:.8,stagger:.15,delay:.9});
+  gsap.from(".fcard",{opacity:0,y:40,scale:.9,stagger:.2,duration:.9,ease:"back.out(1.4)",delay:1.2});
+  gsap.to(".f1",{y:-12,duration:3.2,yoyo:true,repeat:-1,ease:"sine.inOut"});
+  gsap.to(".f2",{y:10,duration:3.8,yoyo:true,repeat:-1,ease:"sine.inOut",delay:.6});
+  gsap.to(".f3",{y:-9,duration:3.5,yoyo:true,repeat:-1,ease:"sine.inOut",delay:1.1});
+  // máquina de escribir
+  var frases=["Que cada especialista llegue a la sesión sabiendo qué hacer.","No solo qué pasó.","1,200 doctores. 28 especialistas. Una acción por doctor."];
+  var te=document.getElementById("type"), fi=0, ci=0, del=false;
+  function type(){ var f=frases[fi]; if(!del){ te.textContent=f.slice(0,++ci); if(ci===f.length){ del=true; setTimeout(type,1800); return; } } else { te.textContent=f.slice(0,--ci); if(ci===0){ del=false; fi=(fi+1)%frases.length; } } setTimeout(type, del?22:48); }
+  if(!reduce) setTimeout(type,1400); else te.textContent=frases[0];
+
+  /* ---------- reveals genéricos ---------- */
+  gsap.utils.toArray("[data-a=up]").forEach(function(el){ gsap.from(el,{y:24,opacity:0,duration:.5,ease:"power2.out",scrollTrigger:{trigger:el,start:"top 95%",once:true}}); });
+  gsap.utils.toArray("[data-a=right]").forEach(function(el){ gsap.from(el,{x:40,opacity:0,duration:.5,ease:"power2.out",scrollTrigger:{trigger:el,start:"top 95%",once:true}}); });
+  gsap.utils.toArray("[data-a=pop]").forEach(function(el){ gsap.from(el,{scale:.85,opacity:0,duration:.5,ease:"back.out(1.4)",scrollTrigger:{trigger:el,start:"top 95%",once:true}}); });
+  // contadores
+  gsap.utils.toArray("[data-n]").forEach(function(el){ var to=+el.dataset.n, suf=el.dataset.suf||""; var o={v:0};
+    ScrollTrigger.create({trigger:el,start:"top 85%",once:true,onEnter:function(){ gsap.to(o,{v:to,duration:1.6,ease:"power2.out",onUpdate:function(){ el.textContent=Math.round(o.v).toLocaleString("es-MX")+suf; }}); }}); });
+  // líneas que se dibujan
+  gsap.utils.toArray("path.draw").forEach(function(p){ var L=p.getTotalLength(); p.style.strokeDasharray=L; p.style.strokeDashoffset=L; gsap.to(p,{strokeDashoffset:0,duration:1.6,ease:"power2.out",scrollTrigger:{trigger:p,start:"top 85%"}}); });
+
+  /* ---------- HOY: fuentes vuelan a la ficha y regresan ---------- */
+  var stage=document.getElementById("hoy-stage"), target=stage.querySelector(".ficha-target");
+  var flyObj={p:0};
+  function flyDraw(){ var p=flyObj.p; stage.querySelectorAll(".s").forEach(function(s,i){ var k=Math.max(0,Math.min(1,(p-i*.075)/.7));
+      var tr=target.getBoundingClientRect(), sr=stage.getBoundingClientRect(); var dx=(tr.left+tr.width/2)-(sr.left+s.offsetLeft+s.offsetWidth/2), dy=(tr.top+tr.height/2)-(sr.top+s.offsetTop+s.offsetHeight/2);
+      s.style.transform="translate("+(dx*k)+"px,"+(dy*k)+"px) scale("+(1-.7*k)+")"; s.style.opacity=1-k*.9; });
+      target.style.transform="translateY(-50%) scale("+(1+p*.06)+")"; }
+  // El vuelo avanza exactamente lo que tú desplazas: nada de pin (no congela la
+  // pantalla) y nada de temporizador (no corre solo). 0 a 1 mientras la sección
+  // pasa por el centro de la pantalla; 1 a 0 al salir, para que nunca se quede a medias.
+  ScrollTrigger.create({trigger:"#hoy-stage",start:"top 59%",end:"bottom 63%",scrub:.3,onUpdate:function(self){ flyObj.p=self.progress; flyDraw(); }});
+
+  /* ---------- MÉTODO: scroll lateral ---------- */
+  var track=document.getElementById("htrack");
+  function hLen(){ return track.scrollWidth - innerWidth + 64; }
+  gsap.to(track,{x:function(){ return -hLen(); },ease:"none",scrollTrigger:{trigger:"#metodo",start:"top top",end:function(){ return "+="+Math.round(hLen()*1.15); },pin:true,scrub:.3,anticipatePin:1,invalidateOnRefresh:true}});
+  gsap.utils.toArray(".hpanel").forEach(function(p,i){ gsap.from(p,{y:40,opacity:0,duration:.6,scrollTrigger:{trigger:"#metodo",start:"top 60%"},delay:i*.05}); });
+
+  /* ---------- SOLUCIÓN: escalera se enciende ---------- */
+  gsap.from("#ladder div",{y:30,opacity:0,stagger:.12,duration:.6,ease:"power3.out",scrollTrigger:{trigger:"#ladder",start:"top 85%"}});
+
+  /* ---------- RESULTADOS: barras y fórmula ---------- */
+  gsap.utils.toArray("#kpis .bar i").forEach(function(b){ gsap.to(b,{width:b.dataset.w+"%",duration:1.3,ease:"power3.out",scrollTrigger:{trigger:b,start:"top 88%"}}); });
+  gsap.from("#formula .f",{scale:.6,opacity:0,stagger:.18,duration:.7,ease:"back.out(1.8)",scrollTrigger:{trigger:"#formula",start:"top 85%"}});
+
+  /* ---------- PLAN: la línea se llena y los nodos se encienden ---------- */
+  var tlSteps=document.querySelectorAll("#tl .t");
+  gsap.to("#tl-fill",{width:"100%",ease:"none",scrollTrigger:{trigger:"#tl",start:"top 80%",end:"bottom 40%",scrub:.3,
+    onUpdate:function(self){ var n=Math.round(self.progress*tlSteps.length); tlSteps.forEach(function(s,i){ s.classList.toggle("on",i<n); }); }}});
+
+  /* ---------- tarjetas 3D ---------- */
+  document.querySelectorAll(".tilt").forEach(function(c){
+    c.addEventListener("mousemove",function(e){ var r=c.getBoundingClientRect(), x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5; gsap.to(c,{rotateY:x*10,rotateX:-y*10,scale:1.02,duration:.4,transformPerspective:800}); });
+    c.addEventListener("mouseleave",function(){ gsap.to(c,{rotateY:0,rotateX:0,scale:1,duration:.6,ease:"power3.out"}); });
+  });
+
+  /* ---------- parallax manchas ---------- */
+  // Las manchas de fondo quedan fijas: moverlas solas sin que tú scrollees es
+  // justo lo que se veía como "la página respirando".
+
+  /* ---------- progreso, nav, dots, teclado, cabecera oscura ---------- */
+  var secs=gsap.utils.toArray("section"), dotsEl=document.getElementById("dots"), nav=document.getElementById("nav"), top=document.getElementById("top");
+  secs.forEach(function(s){ var a=document.createElement("a"); a.href="#"+s.id; dotsEl.appendChild(a); });
+  ScrollTrigger.create({onUpdate:function(self){ document.getElementById("prog").style.width=(self.progress*100)+"%"; }});
+  secs.forEach(function(s,i){ ScrollTrigger.create({trigger:s,start:"top 50%",end:"bottom 50%",onToggle:function(st){ if(st.isActive){ dotsEl.querySelectorAll("a").forEach(function(a,j){ a.classList.toggle("on",i===j); }); nav.querySelectorAll("a").forEach(function(a){ a.classList.toggle("on",a.getAttribute("href")==="#"+s.id); }); top.classList.toggle("dk", s.classList.contains("dark")); } }}); });
+  addEventListener("keydown",function(e){ var d=0; if(["ArrowDown","PageDown"," ","ArrowRight"].indexOf(e.key)>=0) d=1; if(["ArrowUp","PageUp","ArrowLeft"].indexOf(e.key)>=0) d=-1; if(!d) return; e.preventDefault();
+    var y=scrollY+innerHeight*.5, cur=0; secs.forEach(function(s,i){ var top=s.getBoundingClientRect().top+scrollY; if(top<=y) cur=i; });
+    var n=Math.max(0,Math.min(secs.length-1,cur+d)); var target=secs[n].getBoundingClientRect().top+scrollY; window.scrollTo({top:target,behavior:reduce?"auto":"smooth"}); });
+
+  /* ---------- recalcular posiciones cuando cargan fuentes/imágenes tarde ---------- */
+  addEventListener("load",function(){ setTimeout(function(){ ScrollTrigger.refresh(); }, 300); });
+})();
+</script>
+</body>
+</html>
