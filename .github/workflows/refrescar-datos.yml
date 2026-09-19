@@ -1,0 +1,23 @@
+name: Refrescar datos de Doctor 360
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refrescar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Correr el motor
+        run: python3 correr.py
+      - name: Publicar si cambio algo
+        run: |
+          git config user.name "doctor360-bot"
+          git config user.email "doctor360-bot@users.noreply.github.com"
+          git add dashboard/datos.js
+          git diff --cached --quiet && echo "Sin cambios" || (git commit -m "Datos del $(date -u +%F)" && git push)
