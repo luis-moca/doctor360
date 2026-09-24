@@ -1,5 +1,5 @@
 window.DATOS = {
- "hoy": "2026-09-23",
+ "hoy": "2026-09-24",
  "horizonte_dias": 90,
  "recalculo_dias": 7,
  "nota": "Datos 100% sintéticos. Planes y precios oficiales de Doctoralia al 18-sep-2026; todo lo demás es supuesto declarado en datos/supuestos.py.",
@@ -540,7 +540,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -628,7 +628,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 0
    },
@@ -725,7 +725,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 0
    },
@@ -824,7 +824,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -912,7 +912,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1000,7 +1000,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1089,7 +1089,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 1
    },
@@ -1177,7 +1177,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1266,7 +1266,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1355,7 +1355,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1443,7 +1443,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -1542,7 +1542,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1630,7 +1630,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1718,7 +1718,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -1818,7 +1818,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1906,7 +1906,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -1992,7 +1992,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -2087,7 +2087,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -2172,7 +2172,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -2267,7 +2267,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -2351,7 +2351,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -2435,7 +2435,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -2529,7 +2529,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 1
    },
@@ -2613,7 +2613,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -2708,7 +2708,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -2792,7 +2792,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 0
    },
@@ -2887,7 +2887,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -2983,7 +2983,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -3068,7 +3068,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -3150,7 +3150,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -3245,7 +3245,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -3329,7 +3329,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -3413,7 +3413,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -3498,7 +3498,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -3582,7 +3582,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -3677,7 +3677,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -3761,7 +3761,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 1
    },
@@ -3843,7 +3843,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -3927,7 +3927,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -4011,7 +4011,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -4105,7 +4105,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -4190,7 +4190,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -4274,7 +4274,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -4371,7 +4371,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -4456,7 +4456,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -4541,7 +4541,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -4625,7 +4625,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -4707,7 +4707,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -4792,7 +4792,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -4875,7 +4875,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -4957,7 +4957,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -5041,7 +5041,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 1
    },
@@ -5123,7 +5123,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -5207,7 +5207,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -5291,7 +5291,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -5387,7 +5387,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -5470,7 +5470,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -5565,7 +5565,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -5645,7 +5645,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -5726,7 +5726,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -5806,7 +5806,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -5886,7 +5886,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -5966,7 +5966,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 1
    },
@@ -6044,7 +6044,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -6124,7 +6124,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -6204,7 +6204,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -6284,7 +6284,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -6366,7 +6366,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -6444,7 +6444,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -6524,7 +6524,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -6604,7 +6604,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -6686,7 +6686,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -6778,7 +6778,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -6858,7 +6858,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -6936,7 +6936,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -7015,7 +7015,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -7095,7 +7095,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -7176,7 +7176,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -7254,7 +7254,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -7334,7 +7334,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -7495,7 +7495,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -7576,7 +7576,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -7658,7 +7658,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -7738,7 +7738,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -7820,7 +7820,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -7900,7 +7900,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -7991,7 +7991,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -8069,7 +8069,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -8150,7 +8150,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -8232,7 +8232,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -8313,7 +8313,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -8394,7 +8394,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -8475,7 +8475,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -8555,7 +8555,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -8644,7 +8644,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -8724,7 +8724,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -8806,7 +8806,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -8884,7 +8884,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -8966,7 +8966,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 1
    },
@@ -9047,7 +9047,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -9127,7 +9127,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 1
    },
@@ -9208,7 +9208,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -9288,7 +9288,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -9377,7 +9377,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -9458,7 +9458,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -9537,7 +9537,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -9618,7 +9618,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -9699,7 +9699,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -9780,7 +9780,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -9858,7 +9858,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -9950,7 +9950,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 0
    },
@@ -10032,7 +10032,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -10124,7 +10124,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -10205,7 +10205,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -10285,7 +10285,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -10365,7 +10365,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -10446,7 +10446,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -10524,7 +10524,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -10604,7 +10604,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -10684,7 +10684,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -10764,7 +10764,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -10845,7 +10845,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -10933,7 +10933,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -11031,7 +11031,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -11131,7 +11131,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -11228,7 +11228,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -11324,7 +11324,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -11419,7 +11419,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -11514,7 +11514,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -11694,7 +11694,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -11783,7 +11783,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": true,
     "orden_dia": 1
    },
@@ -11872,7 +11872,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -11964,7 +11964,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -12061,7 +12061,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -12146,7 +12146,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -12237,7 +12237,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -12322,7 +12322,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -12416,7 +12416,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -12507,7 +12507,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -12874,7 +12874,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -12968,7 +12968,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -13060,7 +13060,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -13151,7 +13151,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -13237,7 +13237,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -13330,7 +13330,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -13423,7 +13423,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -13508,7 +13508,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -13602,7 +13602,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -13694,7 +13694,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -13787,7 +13787,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -13881,7 +13881,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -13972,7 +13972,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -14064,7 +14064,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -14157,7 +14157,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -14249,7 +14249,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -14339,7 +14339,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -14430,7 +14430,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -14516,7 +14516,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -14601,7 +14601,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -14691,7 +14691,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -14778,7 +14778,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -14868,7 +14868,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -14949,7 +14949,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -15036,7 +15036,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -15124,7 +15124,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -15212,7 +15212,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -15293,7 +15293,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -15382,7 +15382,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -15468,7 +15468,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -15557,7 +15557,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -15644,7 +15644,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -15725,7 +15725,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -15810,7 +15810,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -15891,7 +15891,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -15979,7 +15979,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -16229,7 +16229,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -16310,7 +16310,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -16397,7 +16397,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -16478,7 +16478,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -16566,7 +16566,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -16905,7 +16905,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -16992,7 +16992,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -17073,7 +17073,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -17154,7 +17154,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -17236,7 +17236,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -17317,7 +17317,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-23",
+    "programada": "2026-09-24",
     "hecha": false,
     "orden_dia": 1
    },
@@ -17399,7 +17399,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -17480,7 +17480,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -17569,7 +17569,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -17655,7 +17655,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -17740,7 +17740,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -17821,7 +17821,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -17907,7 +17907,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -17988,7 +17988,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -18069,7 +18069,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -18154,7 +18154,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -18240,7 +18240,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -18321,7 +18321,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -18408,7 +18408,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -18493,7 +18493,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -18574,7 +18574,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -18655,7 +18655,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -18737,7 +18737,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -18824,7 +18824,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -19074,7 +19074,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -19160,7 +19160,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -19247,7 +19247,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -19328,7 +19328,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 0
    },
@@ -19410,7 +19410,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -19491,7 +19491,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -19579,7 +19579,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -19666,7 +19666,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -19748,7 +19748,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -19838,7 +19838,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -19920,7 +19920,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -20005,7 +20005,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -20087,7 +20087,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -20175,7 +20175,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -20263,7 +20263,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -20348,7 +20348,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -20500,7 +20500,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -20577,7 +20577,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -20655,7 +20655,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -20808,7 +20808,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -21262,7 +21262,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -21340,7 +21340,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -21417,7 +21417,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -21495,7 +21495,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -21572,7 +21572,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -21724,7 +21724,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -21801,7 +21801,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -22030,7 +22030,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-24",
+    "programada": "2026-09-25",
     "hecha": false,
     "orden_dia": 1
    },
@@ -22107,7 +22107,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -22185,7 +22185,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -22263,7 +22263,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -22415,7 +22415,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -22492,7 +22492,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -22569,7 +22569,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -22647,7 +22647,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -22725,7 +22725,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -23062,7 +23062,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -23359,7 +23359,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -23830,7 +23830,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 3,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -24190,7 +24190,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -24356,7 +24356,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -24441,7 +24441,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -24524,7 +24524,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -25992,7 +25992,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -26076,7 +26076,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -26647,7 +26647,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -27056,7 +27056,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Quiere activar consulta online para pacientes foráneos.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -27140,7 +27140,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -27223,7 +27223,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -27306,7 +27306,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -28368,7 +28368,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -28451,7 +28451,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 0
    },
@@ -28535,7 +28535,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-25",
+    "programada": "2026-09-26",
     "hecha": false,
     "orden_dia": 1
    },
@@ -28618,7 +28618,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -28702,7 +28702,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -28950,7 +28950,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 0
    },
@@ -29033,7 +29033,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Sin temas: sesión corta de seguimiento.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -29116,7 +29116,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -29280,7 +29280,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -29988,7 +29988,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Comentó que su asistente no usa la agenda online; sigue agendando por teléfono.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -30067,7 +30067,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -33424,7 +33424,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -33737,7 +33737,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -33816,7 +33816,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -36939,7 +36939,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -37019,7 +37019,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 10,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -37099,7 +37099,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -37257,7 +37257,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -37336,7 +37336,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -37809,7 +37809,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Interesado en Noa Booking pero no entendió cómo funciona.",
-    "programada": "2026-09-26",
+    "programada": "2026-09-27",
     "hecha": false,
     "orden_dia": 1
    },
@@ -37889,7 +37889,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Satisfecho con las opiniones; quiere saber cómo pedir más.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -38282,7 +38282,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 20,
     "nota_ultima": "Cambió de consultorio; hay que actualizar la dirección del perfil.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -38362,7 +38362,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 35,
     "nota_ultima": "Mencionó que evaluaría bajar de plan si no ve más reservas.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -39222,7 +39222,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 75,
     "nota_ultima": "Pidió ayuda para configurar recordatorios por WhatsApp; quedó pendiente.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
@@ -48686,7 +48686,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 120,
     "nota_ultima": "Preguntó por facturación; le molestó un cargo que no esperaba.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 0
    },
@@ -48771,7 +48771,7 @@ window.DATOS = {
    "sesiones": {
     "ultima_hace_dias": 50,
     "nota_ultima": "Quiere más pacientes de primera vez; le preocupa la competencia en su zona.",
-    "programada": "2026-09-27",
+    "programada": "2026-09-28",
     "hecha": false,
     "orden_dia": 1
    },
