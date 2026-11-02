@@ -4,6 +4,7 @@ A business case for a health-tech company whose teams drown in five tools before
 
 ![Doctor 360](og.jpg)
 
-Spot the doctors about to leave before they do, and know exactly what to say.
-
+# Results:
 Call prep: 45 min → 21. Five tools → one screen. One clear next step per doctor.
+
+Admin password: eve360
